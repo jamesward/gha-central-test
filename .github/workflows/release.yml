@@ -26,5 +26,4 @@ jobs:
       run: |
         # todo: verify version is same as tag
         
-        ./gradlew publishToSonatype
-        #closeAndReleaseSonatypeStagingRepository
+        ./gradlew publishToSonatype closeAndReleaseSonatypeStagingRepository
